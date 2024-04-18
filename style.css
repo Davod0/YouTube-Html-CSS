@@ -35,6 +35,7 @@ aside {
     color: lightgreen;
     display: block;
     position: sticky;
+    margin-top: 10px;
 }
 
 .sidenav a:hover {
@@ -57,7 +58,23 @@ main {
 
 /* .flex-container {
     display: flex;
-    display: flex;
-    flex-direction: wrap;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 } */
+
+.icon {
+    position: relative;
+    top: 9px;
+    left: 5px;
+}
+
+.text {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+        
+}
