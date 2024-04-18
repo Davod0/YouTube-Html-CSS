@@ -1,13 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0 auto;
     background-color: black;
 }
-
-
 header {
     position: fixed;
     top: 0;
@@ -16,6 +13,30 @@ header {
     box-sizing: border-box;
     background: rgb(0, 200, 255);
 }
+main {
+    margin-left: 250px;
+    margin-top: 120px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fil, minmax(310px, 1fr)); */
+}
+.content {
+    background: lightgoldenrodyellow;
+    height: 300px;
+    padding: 20px;
+}
+
+.under-header {
+    background: lightgreen;
+    position: fixed;
+    top:56px;
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 250px;
+}
+
 
 aside {
     height: 100%;
@@ -27,7 +48,6 @@ aside {
     background-color: lightcoral;
     overflow-y: auto;
 }
-
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -35,46 +55,26 @@ aside {
     color: lightgreen;
     display: block;
     position: sticky;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
+    
 }
-
-main {
-    margin-left: 250px;
-    margin-top: 56px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.content {
-    background: lightgoldenrodyellow;
-    height: 300px;
-    padding: 20px;
-}
-
-/* .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-} */
-
 .icon {
     position: relative;
     top: 9px;
     left: 5px;
 }
-
 .text {
     position: relative;
     top: 5px;
     left: 5px;
     padding-left: 20px;
     font-size: 20px;
-        
 }
+/* implement this later */
+/* .last-icon-margin {  
+    margin-bottom: 20px;
+} */
