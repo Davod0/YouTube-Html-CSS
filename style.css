@@ -5,6 +5,8 @@ body {
     margin: 0 auto;
     background-color: black;
 }
+
+
 header {
     position: fixed;
     top: 0;
@@ -12,7 +14,44 @@ header {
     width: 100%;
     box-sizing: border-box;
     background: rgb(0, 200, 255);
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.header-left {
+    /* flex: 1; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.icon-menu {
+    padding-left: 23px;
+}
+.yt-logo-padding {
+    padding-left: 5px;
+}
+
+
+.font-roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.under-header {
+    background: lightgreen;
+    position: fixed;
+    top: 56px;
+    height: 56px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 250px;
+}
+
+
 main {
     margin-left: 250px;
     margin-top: 120px;
@@ -25,16 +64,6 @@ main {
     background: lightgoldenrodyellow;
     height: 300px;
     padding: 20px;
-}
-
-.under-header {
-    background: lightgreen;
-    position: fixed;
-    top:56px;
-    height: 56px;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 250px;
 }
 
 
@@ -52,14 +81,14 @@ aside {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: lightgreen;
+    color: white;
     display: block;
     position: sticky;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: black;
     
 }
 .icon {
@@ -74,6 +103,8 @@ aside {
     padding-left: 20px;
     font-size: 20px;
 }
+
+
 /* implement this later */
 /* .last-icon-margin {  
     margin-bottom: 20px;
