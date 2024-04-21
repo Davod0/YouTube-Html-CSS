@@ -20,7 +20,6 @@ header {
 
 
 .header-left {
-    /* flex: 1; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -29,8 +28,12 @@ header {
 .icon-menu {
     padding-left: 23px;
 }
-.yt-logo-padding {
+.yt-logo {
     padding-left: 5px;
+    padding-top: 5px;
+}
+.yt-text-margin {
+    margin-left: -18px;
 }
 
 
@@ -60,6 +63,17 @@ header {
     justify-content: flex-start;
     align-items: center;
     padding: 0.4rem 0.6rem;
+}
+.microphone-class {
+    width: 40px;
+    height: 40px;
+    border-radius: 1000000rem 1000000rem 1000000rem 1000000rem;
+    background-color: #333;
+    color: white;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
