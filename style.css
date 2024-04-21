@@ -37,6 +37,7 @@ header {
 }
 
 
+
 .middle-header {
     display: flex;
     justify-content: center;
@@ -114,14 +115,61 @@ header {
 
 
 .under-header {
-    background: lightgreen;
+    background: lightblue;
     position: fixed;
     top: 56px;
     height: 56px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
 }
+.section-all {
+    height: 35px;
+    width: 45px;
+    border-radius: 9px 9px 9px 9px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-all:hover {
+    background-color: #555;
+}
+.section-music {
+    height: 35px;
+    width: 60px;
+    border-radius: 9px 9px 9px 9px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-music:hover {
+    background-color: #555;
+}
+.font-roboto-small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+.margin-left-20px {
+    margin-left: 20px;
+}
+.color-white {
+    color: white;
+}
+.color-black {
+    color: black;
+}
+
 
 
 main {
