@@ -19,7 +19,7 @@ header {
 }
 
 
-.header-left {
+.right-header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -37,12 +37,12 @@ header {
 }
 
 
-.header-middle {
+.middle-header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.search-input-small {
+.search-icon-container {
     width: 4rem;
     height: 36px;
     border-radius: 0 1000000rem 1000000rem 0;
@@ -52,8 +52,8 @@ header {
     justify-content: center;
     padding: 0.4rem 0.6rem;
 }
-.search-input-large {
-    width: 32rem;
+.search-box {
+    width: 32rem;   
     height: 36px;
     border-radius:1000000rem 0  0 1000000rem;
     background-color:black;
@@ -64,7 +64,7 @@ header {
     align-items: center;
     padding: 0.4rem 0.6rem;
 }
-.microphone-class {
+.mic-icon-container {
     width: 40px;
     height: 40px;
     border-radius: 1000000rem 1000000rem 1000000rem 1000000rem;
@@ -75,8 +75,35 @@ header {
     justify-content: center;
     align-items: center;
 }
+.keyboard-alt-icon-padding {
+    padding-left: 425px;
+}
 
 
+.left-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.sign-in-container {
+    width: 100px;
+    height: 37px;
+    border-radius: 1000000rem;
+    border: 2px solid #333;
+    color: #3ea6ff;
+    margin-right: 20px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign-in-container:hover {
+    box-shadow: inset 0 0 0 1000px #0d6fc9;
+}
+.more-vert-icon-padding {
+   padding-right: 15px;
+}
 
 
 .font-roboto-regular {
