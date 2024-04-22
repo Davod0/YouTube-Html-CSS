@@ -115,7 +115,7 @@ header {
 
 
 .under-header {
-    background: lightblue;
+    background: black;
     position: fixed;
     top: 56px;
     height: 56px;
@@ -125,13 +125,12 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 12px;
 }
 .section-all {
-    height: 35px;
-    width: 45px;
-    border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px  ;
     background-color: white;
+    padding: 7px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,16 +138,15 @@ header {
 .section-all:hover {
     background-color: #555;
 }
-.section-music {
-    height: 35px;
-    width: 60px;
+.rubric-container {
     border-radius: 9px 9px 9px 9px;
     background-color: #333;
+    padding: 7px 8px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section-music:hover {
+.rubric-container:hover {
     background-color: #555;
 }
 .font-roboto-small {
