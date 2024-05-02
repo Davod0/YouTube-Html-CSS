@@ -3,8 +3,4 @@ eventuella avgränsningar du har valt att göra och varför, en länk till origi
 
 - samt ditt namn.
 
-
-
-
-
 skapa media queries för mobil och tablets version av webbplatsen.
