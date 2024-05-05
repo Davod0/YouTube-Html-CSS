@@ -1,0 +1,34 @@
+@media (max-width: 981px) {
+    aside {
+        height: 100%;
+        width: 120px;
+    }
+    .sidenav b{
+        display: none;
+        transition: all 0.5s ease;
+    }
+    .sidenav .sign-in-text-container{
+        display: none;
+        transition: all 0.5s ease;
+    }
+    header .middle-header{
+        display: none;
+        transition: all 0.5s ease;
+    }
+    main {
+        margin-left: 120px ;
+        grid-template-columns: repeat(3, 1fr);
+        transition: all 0.5s ease;
+    }
+    @media(max-width: 870px) {
+        main {
+            grid-template-columns: repeat(2, 1fr);
+            transition: all 0.5s ease;
+        }
+    }
+    .sub-header {
+        width: auto;
+        padding-left:120px !important;
+        transition: all 0.5s ease;
+    }
+}
