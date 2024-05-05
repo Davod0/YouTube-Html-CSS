@@ -20,6 +20,24 @@
         width:100% !important;
         height:80% !important;
     }
-  
+    .right-header .icon-menu {
+        display: none;
+    }
+    .right-header .yt-logo {
+    margin-left: -10px;
+    }
+    header .middle-header{
+        display: none;
+    }
+   .sub-header {
+    width: auto;
+    padding-left:0% !important;
+   }
+   @media (max-width: 565px) {
+       .sub-header{
+        display: none !important;}
+   }
 }
+
+
 
