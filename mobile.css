@@ -1,0 +1,25 @@
+@media (max-width: 687px) {
+    aside {
+        display:none;
+        position:relative;
+        width:0px;
+    }
+    main {
+        width:100% !important;
+        margin-left:0px !important;
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .content-container {
+        height: auto !important;
+        padding-top:0% !important;
+        padding-bottom:0% !important;
+        margin-top:0% !important;
+        margin-bottom:0% !important;
+    }
+    .media-cover img {
+        width:100% !important;
+        height:80% !important;
+    }
+  
+}
+
